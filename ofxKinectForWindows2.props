@@ -7,6 +7,12 @@
     <ClCompile>
       <AdditionalIncludeDirectories>$(KINECTSDK20_DIR)\inc;..\..\..\addons\ofxKinectForWindows2\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
+	<Link>
+      <AdditionalLibraryDirectories Condition="'$(Platform)'=='Win32'">%(AdditionalLibraryDirectories);..\..\..\addons\ofxKinectForWindows2\lib\Win32</AdditionalLibraryDirectories>
+	  <AdditionalLibraryDirectories Condition="'$(Platform)'=='x64'">%(AdditionalLibraryDirectories);..\..\..\addons\ofxKinectForWindows2\lib\x64</AdditionalLibraryDirectories>
+      <AdditionalDependencies Condition="'$(Configuration)'=='Debug'">ofxKinectForWindows2Libd.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies Condition="'$(Configuration)'=='Release'">ofxKinectForWindows2Lib.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
   </ItemDefinitionGroup>
   <ItemGroup />
 </Project>
