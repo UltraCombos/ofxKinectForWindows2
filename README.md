@@ -1,7 +1,8 @@
 ofxKinectForWindows2
-====================
 
-<img src="https://raw.github.com/elliotwoods/ofxKinectForWindows2/master/screenshot.png" />
+reference from https://github.com/elliotwoods/ofxKinectForWindows2
+
+====================
 
 Implementation of Kinect For Windows v2 API using COM (not KinectCommonBridge)
 
