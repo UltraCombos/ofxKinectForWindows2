@@ -1,6 +1,7 @@
 ## ofxKinectForWindows2
 
 Implementation of Kinect For Windows v2 API using COM (not KinectCommonBridge)
+
 reference from https://github.com/elliotwoods/ofxKinectForWindows2
 
 ====================
